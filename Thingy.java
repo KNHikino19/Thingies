@@ -5,5 +5,16 @@ class Thingy
   {
     myX = myY = 0;
   }
-  /* your java code for "getters" and "setters" here */
+    public void setmyX(int x_){
+    myX = x_;
+  }
+  public void setmyY(int y_){
+    myY = y_;
+  }
+  public int getmyY() {
+    return myY;
+  }
+  public int getmyX() {
+    return myX;
+  }
 }
